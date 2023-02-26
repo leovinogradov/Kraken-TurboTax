@@ -14,10 +14,10 @@ Type the name of the result file to be generated in RESULT_FILE
 Run the script (e.g. python3 turbotax.py on Mac or py turbotax.py on Windows)
 
 # Disclaimer:
-This script handles most transaction types (trades, staking, forks, deposits/widthdrawals), but not all!
+This script handles most transaction types (trades, staking, forks, deposits/withdrawals), but not all! For example, Airdrops (which are uncommon) are omitted.
 Any skipped/ignored rows will be printed in the output. You should look these over and add them manually if needed.
 
-Additionally, although this script populates the "Fee Amount" and "Fee Asset" columns, fees for some reason are not displayed in Turbotax UI after upload. I hope this is fixed in the future
+Additionally, although this script populates the "Fee Amount" and "Fee Asset" columns from the TurboTax csv template, fees for some reason are not displayed in Turbotax UI after upload. I hope this is fixed in the future.
 
 Final disclaimer: this is a simple script, designed for tax cases where you have too many transactions to enter by hand but not enough earnings/losses to warrant paying for a more robust tool.
 For a more robust tool, look for something like CoinLedger
